@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    height: 50px;
+    float: left;
+}
+
+h1 {
+    margin: 0;
+    display: inline;
+}
+
+/* Navigation Styles */
+nav {
+    clear: both;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.welcome {
+    flex: 70%; /* Main content area */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.sidebar {
+    flex: 30%; /* Sidebar area */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.thumbnail {
+    width: 100%; /* Responsive thumbnails */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

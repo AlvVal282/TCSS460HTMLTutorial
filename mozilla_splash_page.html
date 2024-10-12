@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mozilla Splash Page</title>
+    <link rel="stylesheet" href="mozilla.css">
+</head>
+<body>
+    <header>
+        <img src="images/firefoxlogo.jpeg" alt="Firefox Logo" width="400">
+        <h1>Welcome to Mozilla</h1>
+    </header>
+
+    <article>
+        <h2>What Mozilla Stands For</h2>
+        <p>Mozilla is dedicated to keeping the internet open and accessible for everyone.</p>
+        
+        <!-- YouTube Video Embed -->
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/ojcNcvb1olg" frameborder="0" allowfullscreen></iframe>
+        
+        <p>Learn more about Mozilla and its initiatives!</p>
+    </article>
+
+    <div class="further-info">
+        <a href="https://www.mozilla.org/en-US/about/" target="_blank">
+            <img src="images/firefoxlogo120.png" alt="Firefox Logo" 
+                 srcset="images/firefoxlogo120.png 120w, images/firefoxlogo.jpeg 400w" 
+                 sizes="(max-width: 500px) 120px, 400px">
+        </a>
+        <a href="https://addons.mozilla.org/en-US/firefox/" target="_blank">
+            <img src="images/firefox-addons.jpeg" alt="Firefox Add-ons" 
+                 srcset="images/firefox-addons.jpeg 120w, images/firefox-addons.jpeg 400w" 
+                 sizes="(max-width: 500px) 120px, 400px">
+        </a>
+        <a href="https://www.mozilla.org/en-US/dinosaur/" target="_blank">
+            <img src="images/mozilla-dinosaur-head.jpeg" alt="Mozilla Dinosaur" 
+                 srcset="images/mozilla-dinosaur-head.jpeg 120w, images/mozilla-dinosaur-head.jpeg 400w" 
+                 sizes="(max-width: 500px) 120px, 400px">
+        </a>
+        <a href="https://developer.mozilla.org/" target="_blank">
+            <img src="images/mdn.jpeg" alt="MDN Web Docs" 
+                 srcset="images/mdn.jpeg 120w, images/mdn.jpeg 400w" 
+                 sizes="(max-width: 500px) 120px, 400px"> <!-- This image is inherently responsive -->
+        </a>
+    </div>
+
+    <div class="red-panda">
+        <picture>
+            <source media="(max-width: 600px)" srcset="images/red-panda-600.jpg">
+            <img src="images/red-panda-1200.jpeg" alt="Red Panda" width="1200">
+        </picture>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mozilla. All rights reserved.</p>
+    </footer>
+</body>
+</html>
